@@ -1,0 +1,549 @@
+body {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 50;
+}
+.logotip {
+  width: 103px;
+  height: 49px;
+  background: rgb(119, 119, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+.nav {
+  color: rgb(119, 119, 119);
+  font-size: 14px;
+  margin: 0px 15px;
+}
+* {
+  font-family: "Raleway", sans-serif;
+}
+.section {
+  width: 100%;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.section.home {
+  background: url("https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/header.jpg");
+  height: 1008px;
+}
+.konteiner {
+  width: 65%;
+  margin: 0px auto;
+}
+.creative {
+  width: 1170px;
+  position: absolute;
+  top: 440px;
+}
+.big {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+.red {
+  color: rgb(255, 255, 255);
+  background: #ff6863;
+  border: 1px solid #ff6863;
+  font-size: 14px;
+  padding: 13px 28.5px;
+}
+.transparante {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  padding: 13px 28.5px;
+}
+.red:hover {
+  background: rgb(255, 255, 255);
+  border-color: #ff6863;
+  color: #ff6863;
+  transition: 1s;
+  cursor: pointer;
+}
+.red:focus {
+  background: rgb(119, 119, 119);
+  border-color: #ff6863;
+  color: #ff6863;
+  transition: 1s;
+  cursor: pointer;
+}
+.transparante:hover {
+  background: #ff6863;
+  border-color: #ff6863;
+  color: #ffffff;
+  transition: 1s;
+  cursor: pointer;
+}
+.start {
+  display: flex;
+  align-items: flex-start;
+}
+.lorem {
+  width: 555px;
+  margin: 100px 0px 0px 0px;
+  display: inline-block;
+}
+.ab {
+  font-size: 35px;
+}
+.minus {
+  width: 85px;
+  height: 2px;
+  background: #ff6863;
+  margin: 20px 0px;
+}
+.lor {
+  font-size: 14px;
+}
+.strela {
+  display: inline-block;
+  margin: 108.5px 0px 0px 123px;
+}
+.vibor {
+  width: 553px;
+  height: 50px;
+  border: 1px solid rgb(214, 214, 214);
+  margin: 0px 0px 20px 0px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.str {
+  width: 50px;
+  height: 50px;
+  background: rgb(214, 214, 214);
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slv {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+}
+hr {
+  margin: 90px 0px;
+}
+.two {
+  display: flex;
+  justify-content: center;
+}
+.we {
+  width: 372px;
+  height: 163px;
+}
+.krsl {
+  display: flex;
+  align-items: center;
+}
+.krug {
+  width: 55px;
+  height: 55px;
+  background: #ff6863;
+  border-radius: 50%;
+  border: 5px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smail {
+  font-size: 23px;
+  color: #ffffff;
+}
+.video {
+  margin: 150px 0px 0px 0px;
+  width: 100%;
+  height: 280px;
+  background: url("https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/video.jpg")
+    no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.star {
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0px 100px 0px;
+}
+.lo {
+  width: 725px;
+  text-align: center;
+}
+.akva {
+  display: flex;
+  justify-content: center;
+}
+.akv {
+  margin: 0px 0px 0px 20px;
+}
+.our {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 40px 0px;
+}
+.three {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.branding {
+  width: 360px;
+  height: 192px;
+}
+.gray {
+  font-size: 46px;
+}
+.bran {
+  margin: 14px 0px 0px 0px;
+}
+.minys {
+  width: 30px;
+  height: 2px;
+  background: #ff6863;
+  margin: 14px 0px 0px 0px;
+}
+.coffe {
+  width: 100%;
+  height: 424px;
+  background: url("https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/work-together.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.impressed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.together {
+  z-index: 3;
+  color: #ffffff;
+  font-size: 32px;
+  margin: 0px 0px 60px 0px;
+}
+.vero {
+  z-index: 3;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0px 0px 60px 0px;
+}
+.nework {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.pat {
+  display: flex;
+  justify-content: center;
+}
+.row {
+  width: 770px;
+  display: flex;
+  flex-direction: column;
+}
+.dus {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 0px 0px;
+}
+.tymba {
+  margin: 0px 0px 0px 30px;
+}
+.put {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 0px 0px;
+}
+.nothin {
+  width: 770px;
+  height: 284px;
+  margin: 0px 30px 30px 0px;
+}
+.nichego {
+  width: 360px;
+  height: 276.6px;
+  margin: 30px 0px 0px 30px;
+}
+.ochki {
+  text-align: center;
+}
+.camer {
+  text-align: center;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  margin: 150px auto;
+  justify-content: space-around;
+}
+.skill {
+  width: 555px;
+}
+.polosa {
+  margin: 25px auto;
+}
+.plkr {
+  width: 444px;
+  height: 10px;
+  background: #ff6863;
+  display: inline-block;
+}
+.plsr {
+  width: 555px;
+  height: 10px;
+  background: #dfdfdf;
+  display: inline-block;
+  display: flex;
+}
+.plkra {
+  width: 416px;
+  background: #ff6863;
+}
+.plkrs {
+  width: 500px;
+  background: #ff6863;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+}
+.skil {
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number {
+  font-size: 35px;
+  margin: 0px 0px;
+}
+.phh {
+  font-size: 18px;
+  margin: 14px 0px 0px 0px;
+}
+.myx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px 0px 0px;
+  width: 100%;
+  height: 500px;
+  background: url("https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/testimonial.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.strila {
+  margin: 0px 150px 0px 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opis {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+}
+.testim {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0px 0px 110px 0px;
+}
+.veru {
+  width: 810px;
+  color: #d6d6d6;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+}
+.verou {
+  color: #d6d6d6;
+  margin: 0px 0px 20px 0px;
+}
+.zvezd {
+  display: flex;
+}
+.zv {
+  font-size: 14px;
+  color: rgb(216, 181, 27);
+}
+.strilla {
+  margin: 0px 0px 0px 150px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stril {
+  color: #ffffff;
+}
+.logotipu {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+.iphone {
+  width: 100%;
+  height: 383px;
+  background: url("https://bootstrapthemes.co/demo/html/rage-freebie-bootstrap-html5-template/assets/images/background/subscribe.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.vniph {
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email {
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0);
+  padding: 6px 12px;
+  width: 567px;
+  height: 30px;
+}
+.email::placeholder {
+  color: #ffffff;
+}
+.cnim {
+  z-index: 4;
+}
+.wid  {
+  width: 360px;
+  height: 273px;
+}
+.send {
+  width: 100%;
+  height: 479px;
+  background: #646464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rag {
+  font-size: 29px;
+  color: #ffffff;
+}
+.dol  {
+  font-size: 14px;
+  color: #ffffff;
+}
+.fam  {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.fa {
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wite {
+  font-size: 14px;
+  color: #ffffff;
+}
+.name {
+  width: 360px;
+  height: 50px;
+  margin: 0px 24px 0px 0px;
+}
+.area {
+  width: 750px;
+  height: 134px;
+  margin: 18px 0px 0px 0px;
+}
+.sm {
+  width: 756px;
+  color: rgb(255, 255, 255);
+  background: #ff6863;
+  border: 1px solid #ff6863;
+  font-size: 14px;
+  padding: 13px 28.5px;
+  margin: 18px 0px 0px 0px;
+}
+.sm:hover {
+  background: rgb(255, 255, 255);
+  border-color: #ff6863;
+  color: #ff6863;
+  transition: 1s;
+  cursor: pointer;
+}
+.made {
+  width: 100%;
+  height: 84px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yra {
+  color: #bebebe;
+  margin: 0px 0px;
+  font-size: 14px;
+}
+.uvu {
+  color: rgb(0, 89, 255);
+  margin: 0px 0px;
+  font-size: 14px;
+}
+.o {
+  color: #ff0037;
+  font-size: 14px;
+}
